@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TELEHEALTH_MOCK_UNIQUE_ROW_ID/TELEHEALTH_MOCK">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/TELEHEALTH_MOCK"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/MEPRS3CodeDescription/TELEHEALTH_MOCK"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TELEHEALTH_MOCK_UNIQUE_ROW_ID/TELEHEALTH_MOCK">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MEPRS3CodeDescription/TELEHEALTH_MOCK">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/MEPRS3CodeDescription/TELEHEALTH_MOCK"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Patient_Site/TELEHEALTH_MOCK"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TELEHEALTH_MOCK_UNIQUE_ROW_ID/TELEHEALTH_MOCK">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Patient_Site/TELEHEALTH_MOCK">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Patient_Site/TELEHEALTH_MOCK"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Provider_Location/TELEHEALTH_MOCK"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TELEHEALTH_MOCK_UNIQUE_ROW_ID/TELEHEALTH_MOCK">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Provider_Location/TELEHEALTH_MOCK">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Provider_Location/TELEHEALTH_MOCK"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Record_ID/TELEHEALTH_MOCK"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TELEHEALTH_MOCK_UNIQUE_ROW_ID/TELEHEALTH_MOCK">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Record_ID/TELEHEALTH_MOCK">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Record_ID/TELEHEALTH_MOCK"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Wave/TELEHEALTH_MOCK"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TELEHEALTH_MOCK_UNIQUE_ROW_ID/TELEHEALTH_MOCK">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Wave/TELEHEALTH_MOCK">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Wave/TELEHEALTH_MOCK"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:02:05 16:32:28</TIME>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TELEHEALTH_MOCK_UNIQUE_ROW_ID/TELEHEALTH_MOCK">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">6388</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MEPRS3CodeDescription/TELEHEALTH_MOCK">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">42</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Patient_Site/TELEHEALTH_MOCK">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">64</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Provider_Location/TELEHEALTH_MOCK">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">21</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Record_ID/TELEHEALTH_MOCK">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">6388</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Wave/TELEHEALTH_MOCK">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">9</UNIQUE>
+</rdf:Description>
+
+</rdf:RDF>
